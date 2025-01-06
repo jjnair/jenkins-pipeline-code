@@ -9,8 +9,11 @@ pipeline{
               }
           }
          options {
-             echo "hello world"
-         }      
+             skipDefaultCheckout()
+          }
+         steps{
+            echo "Hello World"
+         }
        }
      }
   }
