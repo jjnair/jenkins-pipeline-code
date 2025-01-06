@@ -8,9 +8,9 @@ pipeline{
             customWorkspace "/home/ec2-user/customWorkspace"
               }
           }
-         options {
+         #options {
              #skipDefaultCheckout()
-          }
+          #}
          steps{
             echo "Hello World"
          }
