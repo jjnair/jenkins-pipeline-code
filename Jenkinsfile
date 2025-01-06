@@ -9,7 +9,7 @@ pipeline{
               }
           }
          options {
-             skipDefaultCheckout()
+             #skipDefaultCheckout()
           }
          steps{
             echo "Hello World"
